@@ -1,11 +1,11 @@
-#!/usr/bin/python
+#/usr/bin/python
 
 import time
 import subprocess
 import datetime
 
-pics=110
-wait=5
+pics=10
+wait=60
 
 now = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 OutputDir = "/home/pi/Photos/TimeLapse/" + now
